@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <form id="survey-form">
+        <div class="input-field">
+            <label id="name-label">Name:</label>
+            <input id="name" type="text" required placeholder="Enter Your Name" />
+        </div>
+        <div class="input-field">
+            <label id="email-label">Email:</label>
+            <input id="email" type="email" required placeholder="Enter Your Email" />
+        </div>
+        <div class="input-field">
+            <label id="number-label">Age:</label>
+            <input id="number" type="number" min="13" max="100" placeholder="Age" />
+        </div>  
+        <div class="input-field">
+            <label>Which option best describes your current role?
+            <select id="dropdown">
+              <option>Select Current role</option>
+              <option>Student</option>
+              <option>Full time job</option>
+              <option>Learner</option>
+              <option>others</option>
+            </select>
+            </label>
+        </div>
+        <div class="input-field">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label for="definitly"><input type="radio" name="referrer" class="form-radio" id="definitly" checked />Definitely</label>
+            <label for="maybe"><input type="radio" name="referrer" class="form-radio" id="maybe"/>Maybe</label>
+            <label for="never"><input type="radio" name="referrer" class="form-radio" id="never"/>Never</label>
+        </div>
+        <div>
+            <p>What would you like to see improved?</p>
+            <label><input type="checkBox" value="frontend" class="form-radio" />FrentEnd Projects</label>
+            <label><input type="checkBox" value="backend" class="form-radio" />BackEnd Projects</label>
+            <label><input type="checkBox" value="challanges" class="form-radio" />Challanges</label>
+        </div>
+        <div>
+            <p>Any comments and suggestions?</p>
+            <textarea rows="3" cols="30" class="input-textarea" placeholder="Enter your Comments..."></textarea>
+        </div>
+        <div class="input-field">
+            <button type="submit" id="submit" class="submit-btn">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
