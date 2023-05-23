@@ -2,6 +2,7 @@
 
 * it is basic html and css project.
 
+<<<<<<< HEAD
 ## Tools used
 
 * html
@@ -18,3 +19,8 @@
 * checked attribute - it specifies that an input element should be pre-selected (checked) when the page loads.
 * The checked attribute can be used with checkbox and radio input elements.
     * <input type="checkbox"> and <input type="radio">.
+=======
+Learning: I have learned some css styles.
+
+protection Link: survey-form-o2xi.vercel.app
+>>>>>>> bcb32303b388ca214e168d86ff361f8a2490232f
