@@ -1,9 +1,20 @@
-About the project:
-    In this project have a some input elements.
-    Every input elements have a different types.
-    The age input element is a type of number and the number estimation is above 13.
-    It's have a some radio and checkbox input element.
+## About the project
 
-Tools used: html and css.
+* it is basic html and css project.
 
-Learning: I have learned some css styles.
+## Tools used
+
+* html
+* css
+
+## Learning
+
+* input elemnt - specifies an input field where the user can enter data.
+* label element - defines the caption for the input element.
+* min attribute - specifies the minimum value for an input element.
+    * min="13"
+* max attribute - specifies the maximum value for an input element.
+    * max="100"
+* checked attribute - it specifies that an input element should be pre-selected (checked) when the page loads.
+* The checked attribute can be used with checkbox and radio input elements.
+    * <input type="checkbox"> and <input type="radio">.
